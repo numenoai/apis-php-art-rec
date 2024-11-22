@@ -1,0 +1,44 @@
+{
+  "name": "numeno/api-art-rec",
+  "version": "0.0.3",
+  "description": "### Introduction  Use the Numeno Article Recommender API to get personalized article recommendations in three easy steps:  1. Define a Persona: Simply provide a description of your interests, vibe, and target audience.  2. Associate the Persona with a Feed.  3. Pull from the Feed to receive a curated selection of articles from across the web.  ### Cross-Origin Resource Sharing This API features Cross-Origin Resource Sharing (CORS) implemented in compliance with  [W3C spec](https://www.w3.org/TR/cors/), allowing cross-domain communication from the browser. All responses have a wildcard same-origin policy which makes them accessible from any code on any site.",
+  "keywords": [
+    "openapitools",
+    "openapi-generator",
+    "openapi",
+    "php",
+    "sdk",
+    "rest",
+    "api"
+  ],
+  "homepage": "https://openapi-generator.tech",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OpenAPI",
+      "homepage": "https://openapi-generator.tech"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^7.3",
+    "guzzlehttp/psr7": "^1.7 || ^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0 || ^9.0",
+    "friendsofphp/php-cs-fixer": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "NumenoArtRec\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NumenoArtRec\\Test\\": "test/"
+    }
+  }
+}
